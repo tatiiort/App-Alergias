@@ -1,0 +1,1 @@
+"streamlit\ngspread\noauth2client\npandas" 

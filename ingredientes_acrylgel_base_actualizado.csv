@@ -1,0 +1,71 @@
+Ingrediente;Categoria;Notas;Alternativas;Fuente
+"Hidroxietil metacrilato (HEMA) / Hydroxyethyl methacrylate (HEMA)";Prohibido;"Alergia severa (+++). Común causante de alergias en acrílicos.";"Uretano acrilatos; otros acrilatos sin metacrilatos";Pruebas de alergia y literatura clínica
+"Hidroxipropil metacrilato (HPMA) / Hydroxypropyl methacrylate (HPMA)";Prohibido;"Alergia severa (+++). Similar a HEMA en su capacidad alergénica.";"Uretano acrilatos; otros acrilatos sin metacrilatos";Pruebas de alergia y literatura clínica
+"Etilenglicol dimetacrilato (EGDMA) / Ethylene glycol dimethacrylate (EGDMA)";Prohibido;"Alergia moderada (++). Usado como diluyente acrílico.";"Acrilatos alternativos sin metacrilatos";Pruebas de alergia y literatura clínica
+"Aliphatic Urethane Acrylate";Tolerable;"Alternativa común en acrylgels; menor riesgo de alergia.";"N/A";Literatura técnica y fórmulas sin HEMA/HPMA
+"Acrylic Copolymer";Tolerable;"Polímero base; generalmente seguro.";"N/A";Literatura técnica
+"Pentaerythrityl Tetraacrylate / Triacrylate";Tolerable;"Usados para fortalecer el producto; generalmente seguros.";"N/A";Literatura técnica
+"Methyl Benzoylformate";Tolerable;"Fotoiniciador; puede causar sensibilidad en piel muy reactiva.";"N/A";Literatura técnica
+"Benzoyl Isopropanol";Tolerable;"Fotoiniciador; similar a Methyl Benzoylformate.";"N/A";Literatura técnica
+"P-Hydroxyanisole";Tolerable;"Antioxidante; raro que cause alergias.";"N/A";Literatura técnica
+"Polyester resin";Tolerable;"Resina para estructura; generalmente segura.";"N/A";Literatura técnica
+"Silica Dimethyl Silylate";Tolerable;"Agente espesante; seguro y no irritante.";"N/A";Literatura técnica
+"Hydroquinone";Precaución;"Puede causar irritación o sensibilización en algunas personas.";"Consultar con especialista";Literatura técnica
+"Zinc Sulfide";Tolerable;"Pigmento; generalmente seguro.";"N/A";Literatura técnica
+"PEG-4 Trimethylolpropane Triacrylate";Precaución (La Femme los lleva, dan alergia);"Componente acrílico que puede causar irritación en piel sensible.";"Consultar con especialista";Literatura técnica
+"Mica";Tolerable;"Pigmento mineral; puede irritar en pieles sensibles.";"N/A";Literatura técnica
+"Hydrogenated Polyisobutene";Tolerable;"Emoliente; seguro para la piel.";"N/A";Literatura técnica
+"Phenoxyethanol";Tolerable;"Conservante; seguro en bajas concentraciones.";"N/A";Literatura técnica
+"Palmitic acid";Tolerable;"Ácido graso; generalmente seguro.";"N/A";Literatura técnica
+"Benzoic acid";Tolerable;"Conservante; generalmente seguro.";"N/A";Literatura técnica
+"CI73915";Precaución;"Pigmento; algunos pueden causar irritación.";"Consultar con especialista";Literatura técnica
+"Acrylates Copolymer";Tolerable;"Polímero base; generalmente seguro y no alergénico.";"N/A";Literatura técnica
+"Pentaerythrityl Tetramercaptopropionate (Pentaerythritol tetra(3-mercaptopropionate))";Precaución;"Agente reticulante poco común en alergias; mejor vigilar.";"N/A";Literatura técnica
+"Isopropyl Thioxanthone (2-isopropylthioxanthone)";Precaución;"Fotoiniciador que puede causar sensibilidad en pieles muy reactivas.";"N/A";Literatura técnica
+"Trimethylbenzoyl Diphenylphosphine Oxide";Tolerable;"Fotoiniciador común; generalmente seguro.";"N/A";Literatura técnica
+"CI 77266 (Carbon Black)";Tolerable;"Pigmento negro; generalmente seguro.";"N/A";Literatura técnica
+"CI 15850 (Red 6)";Tolerable;"Pigmento rojo; puede causar irritación leve en piel sensible.";"N/A";Literatura técnica
+"CI 14700 (Red 4)";Tolerable;"Pigmento rojo; puede causar irritación leve en piel sensible.";"N/A";Literatura técnica
+"CI 47000 (Yellow 11)";Tolerable;"Pigmento amarillo; generalmente seguro.";"N/A";Literatura técnica
+"CI 77510 (Ferric Ferrocyanide)";Tolerable;"Pigmento azul; generalmente seguro.";"N/A";Literatura técnica
+"CI 61565 (Pigment Violet 23)";Tolerable;"Pigmento violeta; generalmente seguro.";"N/A";Literatura técnica
+"CI 60725 (Pigment Violet 1)";Tolerable;"Pigmento violeta; generalmente seguro.";"N/A";Literatura técnica
+"CI 77891 (Titanium Dioxide)";Tolerable;"Pigmento blanco; generalmente seguro.";"N/A";Literatura técnica
+"CI 77019 (Mica)";Tolerable;"Pigmento mineral; puede causar irritación leve en piel sensible.";"N/A";Literatura técnica
+"CI 77491 (Iron Oxides)";Tolerable;"Pigmentos de óxido de hierro; generalmente seguros.";"N/A";Literatura técnica
+"Hidroxietil metacrilato (HEMA) / Hydroxyethyl methacrylate (HEMA)";Prohibido;"Alergia severa (+++); dermatitis por contacto frecuente en uñas acrílicas y geles.";"Acrilatos sin metacrilatos (ej. uretano acrilatos)";Estudios dermatológicos y guías alergológicas
+"Hidroxipropil metacrilato (HPMA) / Hydroxypropyl methacrylate (HPMA)";Prohibido;"Similar a HEMA; causa alergia moderada a severa en productos de uñas.";"Acrilatos alternativos";Estudios clínicos
+"Etilenglicol dimetacrilato (EGDMA) / Ethylene glycol dimethacrylate (EGDMA)";Prohibido;"Diluyente acrílico; alergia moderada (++). Presente en acrílicos y algunos geles.";"Otros acrilatos menos alergénicos";Literatura técnica
+"Isobornil metacrilato (IBMA) / Isobornyl methacrylate (IBMA)";Prohibido;"Potencial alergénico importante; usado en geles y polygel.";"Acrilatos alternativos";Reportes de alergia
+"Uretano acrilatos alifáticos / Aliphatic urethane acrylates";Tolerable;"Base principal en polygel y acrylgel; menor riesgo alergénico.";"N/A";Guías cosméticas
+"Trietil fosfato (TPO) (fotoiniciador) / Trimethylolpropane triacrylate (TPO) (photoinitiator)";Tolerable;"Fotoiniciador común en geles y polygel; baja alergénicidad.";"N/A";Literatura técnica
+"Benzofenona (fotoiniciador) / Benzophenone (photoinitiator)";Precaución;"Puede causar sensibilidad en piel muy reactiva.";"N/A";Estudios dermatológicos
+"Ftalatos (dibutilftalato; DBP) / Phthalates (dibutyl phthalate; DBP)";Prohibido;"Tóxicos y alergénicos; comunes en esmaltes antiguos.";"Esmaltes sin ftalatos";"Legislación cosmética"
+"Formaldehído y liberadores (DMDM hidantoína; etc.) / Formaldehyde and releasers (DMDM hydantoin; etc.)";Precaución;"Irritación y sensibilización; muy usados en endurecedores.";"Conservantes alternativos";Dermatología
+"Tolueno / Toluene";Prohibido;"Irritante y tóxico; solvente en esmaltes.";"Solventes más seguros";Normativa cosmética
+"Resina de formaldehído / Formaldehyde resin";Prohibido;"Potente alergeno; presente en endurecedores.";"Resinas alternativas";Guías clínicas
+"Metacrilatos libres (monómeros residuales) / Free methacrylates (residual monomers)";Prohibido;"Altamente alergénicos; causan dermatitis por contacto. Presentes en primers y geles si no curan bien.";"Polímeros curados";Dermatología
+"Methylisothiazolinone (MIT)";Prohibido;"Conservante con alta incidencia de alergias.";"Conservantes sin MIT";Reportes clínicos
+"Phenoxyethanol";Tolerable;"Conservante seguro en bajas dosis.";"N/A";Literatura técnica
+"Acrilatos Copolymer / Acrylates copolymer";Tolerable;"Polímero seguro sin alergias conocidas.";"N/A";Guías técnicas
+"CI 15850 (Red 6)";Precaución;"Pigmentos que pueden irritar piel sensible en esmaltes semipermanentes.";"Pigmentos hipoalergénicos";Estudios dermatológicos
+"CI 14700 (Red 4)";Precaución;"Pigmentos que pueden irritar piel sensible.";"Pigmentos hipoalergénicos";Estudios dermatológicos
+"CI 77891 (Titanium Dioxide)";Tolerable;"Seguro; usado como pigmento blanco.";"N/A";Literatura técnica
+"Triethanolamine (TEA)";Precaución;"Puede causar irritación en piel sensible. Presente en primers.";"Alternativas no irritantes";Dermatología
+"Acetona / Acetone";Precaución;"Irritante; puede resecar y sensibilizar la piel. Usada en removedores y primers.";"Removedores sin acetona";Guías cosméticas
+"Ácido fosfórico / Phosphoric acid";Precaución;"Irritante usado en primers para desengrasar uñas.";"Alternativas menos agresivas";Estudios clínicos
+"Ácido metacrílico / Methacrylic acid";Prohibido;"Irritante y alergénico en primers y geles.";"Alternativas sin ácido metacrílico";Literatura técnica
+"Alcohol isopropílico / Isopropyl alcohol";Tolerable;"Solvente y desengrasante; puede resecar piel muy sensible.";"N/A";Guías cosméticas
+"Isobornil acrilato / Isobornyl acrylate";Prohibido;"Monómero alergénico frecuente en geles y polygel.";"Acrilatos alternativos";Reportes clínicos
+"Uretano metacrilato / Urethane methacrylate";Tolerable;"Componente común en geles; generalmente seguro si bien curado.";"N/A";Literatura técnica
+"Metacrilato de metilo / Methyl methacrylate (MMA)";Prohibido;"Potencialmente tóxico y alergénico; prohibido en muchos países para uso cosmético";"Metacrilato de etilo (EMA)";https://www.fda.gov
+"Metacrilato de etilo / Ethyl methacrylate (EMA)";Con precaución;"Menos tóxico que MMA, usado en geles y acrílicos";"";""
+"Polimetilmetacrilato / Polymethyl methacrylate (PMMA)";Tolerable;"Base sólida en acrílicos y geles constructores";"";""
+"Ftalatos (dibutilftalato; DBP) / Phthalates (dibutyl phthalate; DBP)";Prohibido;"Prohibido o restringido en esmaltes por toxicidad";"Esmaltes sin ftalatos";""
+"Tolueno / Toluene";Prohibido;"Irritante y tóxico; restringido en algunos países";"Solventes alternativos menos tóxicos";""
+"Formaldehído / Formaldehyde";Prohibido;"Potencial carcinógeno y alergénico; en esmaltes tradicionales";"";""
+"Resina de metacrilato de butilo / Butyl methacrylate resin";Con precaución;"Componente en esmaltes y geles";"";""
+"Fotoiniciadores / Photoinitiators";Tolerable;"Permiten el curado con luz UV o LED";"";""
+"Dimeticona / Dimethicone";Tolerable;"Mejora la textura y brillo";"";""
+"TMPTA (Trimetilolpropano triacrilato) / Trimethylolpropane triacrylate (TMPTA)";Con precaución;"Monómero altamente sensibilizante presente en geles y esmaltes semipermanentes; puede causar dermatitis alérgica de contacto.";"Uso de acrilatos alternativos menos sensibilizantes (como HEMA-free o Di-HEMA-free)";Reportes clínicos y fichas de seguridad
+"Methyl Methacrylate Crosspolymer / Copolímero de metacrilato de metilo";Precaución;"Polímero sintético texturizante y absorbente. No es un monómero, por lo que no suele causar alergias como HEMA, HPMA o EGDMA, pero puede contener trazas de metacrilatos libres.";"Sílice; almidón modificado; Nylon-12";CosIng, EWG, literatura técnica

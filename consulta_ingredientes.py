@@ -5,6 +5,7 @@ from google.oauth2.service_account import Credentials
 import datetime
 import json
 
+# Carga el CSV con los ingredientes
 df = pd.read_csv("ingredientes_acrylgel_base_actualizado.csv", sep=';', encoding='latin1', quotechar='"')
 
 st.title("Consulta de Ingredientes para Alergias")
@@ -27,15 +28,13 @@ def guardar_no_encontrados(no_encontrados):
         'https://www.googleapis.com/auth/spreadsheets',
         'https://www.googleapis.com/auth/drive'
     ]
-    # Cargar las credenciales desde st.secrets
-    creds = Credentials.from_service_account_info(
-    st.secrets["gcp_service_account"],  # aquí ya es dict, no string JSON
-    scopes=scope
-)
+    # Convertir JSON string de secrets a diccionario
+    creds_info = json.loads(st.secrets["gcp_service_account"])
+
     creds = Credentials.from_service_account_info(creds_info, scopes=scope)
     client = gspread.authorize(creds)
 
-    # Abrir la hoja de cálculo
+    # Abrir hoja de cálculo
     sheet = client.open("Ingredientes no encontrados").sheet1
 
     for ing in no_encontrados:

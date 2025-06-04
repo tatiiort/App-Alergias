@@ -3,6 +3,7 @@ import pandas as pd
 import gspread
 from google.oauth2.service_account import Credentials
 import datetime
+import json
 
 df = pd.read_csv("ingredientes_acrylgel_base_actualizado.csv", sep=';', encoding='latin1', quotechar='"')
 
@@ -21,23 +22,22 @@ if 'text_area' not in st.session_state:
 ingredientes_lista = df['Ingrediente'].tolist()
 opciones_desplegable = ["-- Selecciona un ingrediente --"] + ingredientes_lista
 
-# Función para guardar ingredientes no encontrados en Google Sheets
 def guardar_no_encontrados(no_encontrados):
     scope = [
         'https://www.googleapis.com/auth/spreadsheets',
         'https://www.googleapis.com/auth/drive'
     ]
-    creds = Credentials.from_service_account_file('credentials.json', scopes=scope)
+    # Cargar las credenciales desde st.secrets
+    creds_info = json.loads(st.secrets["gcp_service_account"])
+    creds = Credentials.from_service_account_info(creds_info, scopes=scope)
     client = gspread.authorize(creds)
 
-    # Abre la hoja de cálculo por nombre
+    # Abrir la hoja de cálculo
     sheet = client.open("Ingredientes no encontrados").sheet1
 
-    # Añade fecha y cada ingrediente no encontrado en una nueva fila
     for ing in no_encontrados:
         sheet.append_row([str(datetime.datetime.now()), ing])
 
-# Funciones para limpiar campos al cambiar método
 def on_input_change():
     st.session_state.select_ingrediente = "-- Selecciona un ingrediente --"
     st.session_state.text_area = ""
@@ -56,7 +56,6 @@ def on_button_click():
     else:
         st.warning("Por favor pega la fórmula antes de buscar.")
 
-# --- Entrada individual ---
 ingrediente_input = st.text_input(
     "Escribe el nombre del ingrediente (opcional):",
     value=st.session_state.input_individual,
@@ -64,7 +63,6 @@ ingrediente_input = st.text_input(
     on_change=on_input_change
 )
 
-# --- Selección desplegable ---
 ingrediente_seleccionado = st.selectbox(
     "Selecciona un ingrediente",
     opciones_desplegable,
@@ -73,7 +71,6 @@ ingrediente_seleccionado = st.selectbox(
     on_change=on_select_change
 )
 
-# --- Cuadro de texto con botón ---
 st.write("### Pega la fórmula completa (separada por comas):")
 ingredientes_formula = st.text_area(
     "Pega aquí la fórmula",
@@ -83,18 +80,14 @@ ingredientes_formula = st.text_area(
 
 st.button("Buscar ingredientes en fórmula", on_click=on_button_click)
 
-# --- Mostrar resultados según último método usado ---
 def mostrar_detalle(detalles):
     categoria = detalles["Categoria"].strip().lower()
-    if categoria == "tolerable":
-        color = "green"
-    elif categoria == "prohibido":
-        color = "red"
-    elif "precaución" in categoria:
-        color = "orange"
-    else:
-        color = "black"
-
+    color = (
+        "green" if categoria == "tolerable" else
+        "red" if categoria == "prohibido" else
+        "orange" if "precaución" in categoria else
+        "black"
+    )
     st.subheader(detalles["Ingrediente"])
     st.markdown(f"**Categoría:** <span style='color:{color}'>{detalles['Categoria']}</span>", unsafe_allow_html=True)
     st.write(f"**Notas:** {detalles['Notas']}")

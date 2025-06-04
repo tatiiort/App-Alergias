@@ -28,7 +28,10 @@ def guardar_no_encontrados(no_encontrados):
         'https://www.googleapis.com/auth/drive'
     ]
     # Cargar las credenciales desde st.secrets
-    creds_info = json.loads(st.secrets["gcp_service_account"])
+    creds = Credentials.from_service_account_info(
+    st.secrets["gcp_service_account"],  # aquí ya es dict, no string JSON
+    scopes=scope
+)
     creds = Credentials.from_service_account_info(creds_info, scopes=scope)
     client = gspread.authorize(creds)
 
